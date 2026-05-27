@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set, viewport, and preventing search indexing -->
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoteMate Documentation</title>
+    <style>
+        /* Basic styling for body and container */
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Central container for content with max width, padding, and subtle shadow */
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+
+        /* Headings styling */
+        h1, h2 {
+            color: #005bbb;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+        }
+
+        h2 {
+            margin-top: 40px;
+        }
+
+        /* Lists styling */
+        ul, ol {
+            margin-left: 20px;
+        }
+
+        /* FAQ styling block */
+        .faq {
+            background-color: #f0f4ff;
+            padding: 20px;
+            border-left: 4px solid #005bbb;
+            margin: 20px 0;
+            border-radius: 6px;
+        }
+
+        .question {
+            font-weight: bold;
+        }
+
+        /* Table styling */
+        .table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .table th, .table td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .table th {
+            background-color: #eef3ff;
+        }
+
+        /* Badge styling used for tech stack */
+        .badge {
+            background-color: #005bbb;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        /* Inline code styling */
+        code {
+            background: #eef3ff;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main content container -->
+    <div class="container">
+        <h1>📘 NoteMate Documentation</h1>
+
+        <!-- Introduction section -->
+        <h2>🧠 What is NoteMate?</h2>
+        <p>NoteMate is your personal AI-powered assistant designed to help you interact with PDF documents easily.</p>
+        <p>Upload any PDF, ask questions from it, get instant answers, and even listen to the summaries — all through a friendly and simple UI.</p>
+
+        <!-- Getting started guide -->
+        <h2>🚀 Getting Started</h2>
+        <ol>
+            <li><strong>📂 Uploading a PDF:</strong> Use the Upload PDF option in the sidebar. Select a file and wait for confirmation.</li>
+            <li><strong>❓ Asking Questions:</strong> Type your question in the box and click the Ask button.</li>
+            <li><strong>📄 Summarizing:</strong> Click the Summarize button to get a short summary.</li>
+            <li><strong>🔊 Listen:</strong> Click "Read Me" to hear summaries using text-to-speech.</li>
+        </ol>
+
+        <!-- Features list -->
+        <h2>🌟 Features</h2>
+        <ul>
+            <li>✅ Upload PDF files (one at a time)</li>
+            <li>✅ Ask questions from the PDF content</li>
+            <li>✅ Generate summaries</li>
+            <li>✅ Text-to-speech for answers</li>
+            <li>✅ Sidebar with Help and FAQ</li>
+            <li>✅ Clean and intuitive UI</li>
+        </ul>
+
+        <!-- Tips for users -->
+        <h2>💡 Tips & Best Practices</h2>
+        <ul>
+            <li>Use PDFs with readable, selectable text (not scanned images).</li>
+            <li>Ask clear and specific questions.</li>
+            <li>If UI doesn’t respond, refresh the page.</li>
+        </ul>
+
+        <!-- Troubleshooting common issues -->
+        <h2>🛠 Troubleshooting</h2>
+        <table class="table">
+            <tr><th>Issue</th><th>Solution</th></tr>
+            <tr><td>PDF doesn’t load</td><td>Check the file format (.pdf) and size</td></tr>
+            <tr><td>App looks empty</td><td>Upload a PDF first</td></tr>
+            <tr><td>Ask button doesn’t work</td><td>Try re-uploading or refreshing</td></tr>
+            <tr><td>No answers shown</td><td>Your PDF might not have readable text</td></tr>
+        </table>
+
+        <!-- Frequently asked questions -->
+        <h2>❓ FAQs</h2>
+        <div class="faq"><span class="question">Q1: How do I upload a PDF?</span><br>→ Use the upload button in the sidebar.</div>
+        <div class="faq"><span class="question">Q2: Can I ask any question?</span><br>→ Yes, as long as it's based on the uploaded PDF.</div>
+        <div class="faq"><span class="question">Q3: Can I listen to answers?</span><br>→ Yes, click the Read Me button under the answer box.</div>
+        <div class="faq"><span class="question">Q4: Does the app work offline?</span><br>→ No, internet is required for AI processing.</div>
+        <div class="faq"><span class="question">Q5: Can I upload multiple PDFs at once?</span><br>→ Not currently. Only one PDF can be uploaded at a time.</div>
+        <div class="faq"><span class="question">Q6: Can I upload scanned PDFs?</span><br>→ No. The PDF must contain readable, selectable text.</div>
+        <div class="faq"><span class="question">Q7: How long can a PDF be?</span><br>→ There is no strict limit, but very large files may slow down processing.</div>
+        <div class="faq"><span class="question">Q8: What formats are supported?</span><br>→ Only <code>.pdf</code> files are supported for now.</div>
+        <div class="faq"><span class="question">Q9: What to do if app is unresponsive?</span><br>→ Refresh the page and re-upload your PDF.</div>
+        <div class="faq"><span class="question">Q10: Can I save my answers?</span><br>→ You can manually copy or use the text-to-speech to listen and transcribe.</div>
+
+        <!-- Technology stack used -->
+        <h2>🔧 Tech Stack</h2>
+        <ul>
+            <li><span class="badge">Python + Streamlit</span></li>
+            <li><span class="badge">OpenAI GPT</span></li>
+            <li><span class="badge">PyPDF2</span></li>
+            <li><span class="badge">LangChain</span></li>
+            <li><span class="badge">HTML/CSS (via Streamlit components)</span></li>
+        </ul>
+
+        <!-- Contact section -->
+        <h2>📬 Contact / Support</h2>
+        <p>For bugs, suggestions, or feedback:</p>
+        <p><strong>📧</strong> <a href="mailto:notemate.support@email.com">notemate.support@email.com</a></p>
+    </div>
+</body>
+</html>
